@@ -1,11 +1,14 @@
 import Head from "next/head";
 import Script from "next/script";
 import React from "react";
+import Navbar from "../components/Navbar";
 const GTM_ID = "GTM-WFSV3X76";
+import styles from "../components/Navbar.module.css";
 const Contact = () => {
   return (
     <>
-    <Script id="google-tag-manager" strategy="afterInteractive">
+      <Navbar />
+      <Script id="google-tag-manager" strategy="afterInteractive">
         {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -14,15 +17,31 @@ const Contact = () => {
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
       </Script>
-       <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
-          }}
-        />
+      <noscript
+        dangerouslySetInnerHTML={{
+          __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
+        }}
+      />
       <Head>
         <title>Contact Us</title>
       </Head>
-      <div>Hello</div>
+      <div className={styles.main}>
+        <h2>Contact Us</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            deleniti rem aspernatur odit hic autem neque repellat alias? Debitis
+            veniam inventore ipsum similique quos animi ipsa asperiores fuga
+            dolor id. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Officiis deleniti rem aspernatur odit hic autem neque repellat
+            alias? Debitis veniam inventore ipsum similique quos animi ipsa
+            asperiores fuga dolor id. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Officiis deleniti rem aspernatur odit hic autem
+            neque repellat alias? Debitis veniam inventore ipsum similique quos
+            animi ipsa asperiores fuga dolor id.
+          </p>
+        </div>
+      </div>
     </>
   );
 };

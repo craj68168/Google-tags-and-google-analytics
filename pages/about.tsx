@@ -1,13 +1,14 @@
-"use client";
 import Head from "next/head";
 import Script from "next/script";
+import React from "react";
 import Navbar from "../components/Navbar";
-import styles from "../components/Navbar.module.css"
+import styles from "../components/Navbar.module.css";
 const GTM_ID = "GTM-WFSV3X76";
 
-export default function Home() {
+const About = () => {
   return (
     <>
+      <Navbar />
       <Script id="google-tag-manager" strategy="afterInteractive">
         {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -23,11 +24,10 @@ export default function Home() {
         }}
       />
       <Head>
-        <title>Home Page</title>
+        <title>About Us</title>
       </Head>
-      <Navbar />
       <div className={styles.main}>
-        <h2>GTM and GA4 </h2>
+        <h2>About Us</h2>
         <div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
@@ -45,4 +45,6 @@ export default function Home() {
       </div>
     </>
   );
-}
+};
+
+export default About;

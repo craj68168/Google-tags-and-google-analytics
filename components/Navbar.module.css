@@ -1,0 +1,30 @@
+.wrapper {
+  max-width: 90%;
+  margin: 1rem auto;
+  background-color: blanchedalmond;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none;
+}
+.main {
+  max-width: 90%;
+  margin: 1rem auto;
+  letter-spacing: 1px;
+  line-height: 1.6em;
+}
+.activeLink {
+  color: #000;
+  text-decoration: none;
+  font-size: 22px;
+  border-bottom: 3px solid #121212;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
