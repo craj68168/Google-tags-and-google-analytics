@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Script from "next/script";
 import Navbar from "../components/Navbar";
-import styles from "../components/Navbar.module.css"
+import styles from "../components/Navbar.module.css";
 const GTM_ID = "GTM-WFSV3X76";
 
 export default function Home() {
@@ -30,16 +30,19 @@ export default function Home() {
         <h2>GTM and GA4 </h2>
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            deleniti rem aspernatur odit hic autem neque repellat alias? Debitis
-            veniam inventore ipsum similique quos animi ipsa asperiores fuga
-            dolor id. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Officiis deleniti rem aspernatur odit hic autem neque repellat
-            alias? Debitis veniam inventore ipsum similique quos animi ipsa
-            asperiores fuga dolor id. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Officiis deleniti rem aspernatur odit hic autem
-            neque repellat alias? Debitis veniam inventore ipsum similique quos
-            animi ipsa asperiores fuga dolor id.
+            Google Tag Manager is a tag management system (TMS) that allows us
+            to quickly and easily update measurement codes and related code
+            fragments collectively known as tags on your website or mobile apps.
+            With the help of GTM, we can set the tracking on the website, and
+            mobile apps as well, and server-side tracking can be also possible.
+            Everything is in one place, as we can easily understand what tags
+            are firing at what conditions. If we watch the GTM interface, it
+            shows the Google Analytics code that fires on all website pages.
+            Similarly, the Google ads conversion code is fired on the Contact Us
+            page. you can easily understand which tags are fired and what is the
+            trigger of those tags or in which condition the tags are fired. So
+            for that, you can easily edit or update the tags as per your
+            requirement.
           </p>
         </div>
       </div>

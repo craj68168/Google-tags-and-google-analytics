@@ -26,19 +26,21 @@ const Contact = () => {
         <title>Contact Us</title>
       </Head>
       <div className={styles.main}>
-        <h2>Contact Us</h2>
+        <h2>Google Analytics</h2>
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            deleniti rem aspernatur odit hic autem neque repellat alias? Debitis
-            veniam inventore ipsum similique quos animi ipsa asperiores fuga
-            dolor id. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Officiis deleniti rem aspernatur odit hic autem neque repellat
-            alias? Debitis veniam inventore ipsum similique quos animi ipsa
-            asperiores fuga dolor id. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Officiis deleniti rem aspernatur odit hic autem
-            neque repellat alias? Debitis veniam inventore ipsum similique quos
-            animi ipsa asperiores fuga dolor id.
+            Google Analytics is a web analytics service provided by Google. It
+            allows website owners to track and analyze various aspects of their
+            website's performance and user behavior. Traditional Google
+            Analytics has been widely used and is the most common version of the
+            tool available at the time of my last update. When Google Analytics
+            provides you with the code and if you implement your code to your
+            website, Google Analytics as a tool gets connected with your
+            websites, and your website tracking-related information can get
+            access to Google Analytics. so you can create an account on Google
+            Analytics after that you get the js code from it and implement that
+            js code into the website head section. it will help to get access
+            and track to every page of the websites.
           </p>
         </div>
       </div>
